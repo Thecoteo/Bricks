@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #28313B, #485461);
+  font-family: Arial, sans-serif;
+}
+.game-container {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+canvas {
+  background: #fff;
+  border-radius: 10px;
+  display: block;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
